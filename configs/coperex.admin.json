@@ -1,0 +1,19 @@
+[{
+  "_id": {
+    "$oid": "67c1c200aba19594723410d3"
+  },
+  "name": "Juan Perez",
+  "surname": "Gomez",
+  "username": "juanperez",
+  "email": "juan.perez@example.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$HwZLG72FpK9l/rxphvn/vg$mPHv8Hu7mKqzPQ5kqHtXAwEOZS7JOD4u2FNjNRxeJos",
+  "phone": "57156464",
+  "role": "ADMIN_ROLE",
+  "status": true,
+  "createdAt": {
+    "$date": "2025-02-28T14:02:40.735Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-28T14:02:40.735Z"
+  }
+}]

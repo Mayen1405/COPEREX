@@ -1,0 +1,60 @@
+[{
+  "_id": {
+    "$oid": "67c1c2ababa19594723410d6"
+  },
+  "nombre": "Empresa Actualizada",
+  "nivelImpacto": "Medio",
+  "fechaCreacion": {
+    "$date": "2019-01-01T00:00:00.000Z"
+  },
+  "categoria": "Salud",
+  "fechaRegistro": {
+    "$date": "2025-02-28T14:05:31.785Z"
+  },
+  "createdAt": {
+    "$date": "2025-02-28T14:05:31.786Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-28T14:18:37.295Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c1c305aba19594723410d8"
+  },
+  "nombre": "Kinal",
+  "nivelImpacto": "Medio",
+  "fechaCreacion": {
+    "$date": "1999-01-01T00:00:00.000Z"
+  },
+  "categoria": "Academico",
+  "fechaRegistro": {
+    "$date": "2025-02-28T14:07:01.137Z"
+  },
+  "createdAt": {
+    "$date": "2025-02-28T14:07:01.138Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-28T14:07:01.138Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c1c6763c7ed4a1450edfba"
+  },
+  "nombre": "Maria Auxliadora",
+  "nivelImpacto": "Bajo",
+  "fechaCreacion": {
+    "$date": "1998-02-24T00:00:00.000Z"
+  },
+  "categoria": "Academico",
+  "fechaRegistro": {
+    "$date": "2025-02-28T14:21:42.946Z"
+  },
+  "createdAt": {
+    "$date": "2025-02-28T14:21:42.952Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-28T14:21:42.952Z"
+  }
+}]

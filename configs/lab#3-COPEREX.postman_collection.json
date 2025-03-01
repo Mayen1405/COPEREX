@@ -1,0 +1,198 @@
+{
+	"info": {
+		"_postman_id": "95aef423-ae49-4010-bfe2-6b70ed9687bb",
+		"name": "COPEREX",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38544544"
+	},
+	"item": [
+		{
+			"name": "register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Juan Perez\",\r\n    \"surname\": \"Gomez\",\r\n    \"username\": \"juanperez\",\r\n    \"email\": \"juan.perez@example.com\",\r\n    \"password\": \"Password123!\",\r\n    \"phone\": \"57156464\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/coperex/v1/auth/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"coperex",
+						"v1",
+						"auth",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"juan.perez@example.com\",\r\n    \"password\": \"Password123!\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/coperex/v1/auth/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"coperex",
+						"v1",
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "createEmpresa",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\": \"Empresa Ejemplo\",\r\n    \"nivelImpacto\": \"Alto\",\r\n    \"fechaCreacion\": \"2020-01-01\",\r\n    \"categoria\": \"Tecnología\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/coperex/v1/empresas/createEmpresa",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"coperex",
+						"v1",
+						"empresas",
+						"createEmpresa"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "createEmpresa-2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\": \"Kinal\",\r\n    \"nivelImpacto\": \"Medio\",\r\n    \"fechaCreacion\": \"1999-01-01\",\r\n    \"categoria\": \"Academico\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/coperex/v1/empresas/createEmpresa",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"coperex",
+						"v1",
+						"empresas",
+						"createEmpresa"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAllEmpresas",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "getAllEmpresas-Categoria",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "getAllEmpresas-Años",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "generarteReport",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "updateEmpresa",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\": \"Empresa Actualizada\",\r\n    \"nivelImpacto\": \"Medio\",\r\n    \"fechaCreacion\": \"2019-01-01\",\r\n    \"categoria\": \"Salud\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/coperex/v1/empresas/updateEmpresa/67c1c2ababa19594723410d6",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"coperex",
+						"v1",
+						"empresas",
+						"updateEmpresa",
+						"67c1c2ababa19594723410d6"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
